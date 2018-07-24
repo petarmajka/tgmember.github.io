@@ -1,0 +1,20 @@
+var myMessages = ['guaven_woop_success']; // define the messages types    
+function hideAllMessages()
+{
+     var messagesHeights = new Array(); // this array will store height for each
+   
+   
+          messagesHeights = jQuery('.guaven_woop_success').outerHeight();
+          jQuery('.guaven_woop_success').css('top', -messagesHeights); //change top to bottom to use messages at bottom
+           jQuery('.guaven_woop_success').css('display','none');  
+     
+}
+
+
+function showMessage(type)
+{
+      hideAllMessages();   
+      jQuery('.'+type).css('display','block');       
+      jQuery('.'+type).animate({top:"0"}, 900); //change top to bottom to use messages at bottom
+}
+

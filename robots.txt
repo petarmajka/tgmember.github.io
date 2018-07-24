@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /label/
+Allow: /label/tags/
+Allow: /tgMember/
+Disallow: /norton/
+Disallow: /trust/
+Disallow: /cgi-bin/
+
+
+Sitemap: http://www.sblinks.org/sblinks/sitemap.xml
+Sitemap: http://www.animyt.com/animyt/sitemap.xml
+Sitemap: http://www.tgmember.com/tgmember/sitemap.xml
+Sitemap: http://www.dns1.tgmember.com/dns1/sitemap.xml
+Sitemap: http://www.dns2.tgmember.com/dns2/sitemap.xml
+Sitemap: http://www.xn--mgbzzs.net/Shop/sitemap.xml
+Sitemap: http://www.hyperoffer.ir/hyper/sitemap.xml

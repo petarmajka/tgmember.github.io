@@ -1,0 +1,55 @@
+.guaven_woop_message
+{
+ 
+     width: 100%;
+ 
+     color: #fff;
+     padding: 7px;
+     position: fixed;
+     _position: absolute;
+     text-shadow: 0 1px 0 rgba(0,0,0,.5);
+     
+}
+
+
+
+.guaven_woop_success
+{
+     background-color: #61b832;
+     border-color: #55a12c;
+     z-index:999999;
+     display:none;
+}
+
+.guaven_woop_message h3
+{
+     margin: 0 0 5px 0;                          
+}
+
+.guaven_woop_message p
+{
+     margin: 0;
+     line-height:normal                          
+}
+.guaven_woop_message {text-align:center;font-size:28px}
+
+@-webkit-keyframes animate-bg
+{
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
+
+@-moz-keyframes animate-bg 
+{
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}

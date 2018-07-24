@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>UPtoDOWN</ShortName>
+<Description>UPtoDOWN - Search</Description>
+<Image height="16" width="16" type="image/x-icon">http://gstatic.uptodown.net/v9/favicon.ico</Image>
+<InputEncoding>UTF-8</InputEncoding>
+<Query role="example" searchTerms="ares"/>
+<Developer>UPtoDOWN</Developer>
+<AdultContent>false</AdultContent>
+<Url type="text/html" method="get" template="http://tgmember.com/download/ubuntu/search/{searchTerms}"/>
+</OpenSearchDescription>
